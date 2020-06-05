@@ -20,6 +20,18 @@ use Scalar::Util qw( refaddr );
 
 =head1 DESCRIPTION
 
+B<NOTE>: This distribution has been merged into L<Wasm>.  The repository remains on
+GitHub out of historical interest.  Please find the latest version of this module
+either on metacpan or GitHub at:
+
+=over 4
+
+=item L<https://metacpan.org/pod/Wasm>
+
+=item L<https://github.com/perlwasm/Wasm>
+
+=back
+
 This module installs an C<@INC> hook that automatically loads WebAssembly (Wasm)
 files so that they can be used like a Perl module, without:
 

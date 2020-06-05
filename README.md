@@ -12,6 +12,13 @@ no Wasm::Hook; # turns off automatic wasm / wat loading
 
 # DESCRIPTION
 
+**NOTE**: This distribution has been merged into [Wasm](https://metacpan.org/pod/Wasm).  The repository remains on
+GitHub out of historical interest.  Please find the latest version of this module
+either on metacpan or GitHub at:
+
+- [https://metacpan.org/pod/Wasm](https://metacpan.org/pod/Wasm)
+- [https://github.com/perlwasm/Wasm](https://github.com/perlwasm/Wasm)
+
 This module installs an `@INC` hook that automatically loads WebAssembly (Wasm)
 files so that they can be used like a Perl module, without:
 

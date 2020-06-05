@@ -8,6 +8,7 @@ pod_spelling_system:
   stopwords:
     - Wasm
     - WebAssembly
+    - metacpan
 
 pod_coverage:
   skip: 0
